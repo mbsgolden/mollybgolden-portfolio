@@ -1,0 +1,51 @@
+/*****BASE STYLE*****/
+
+body {
+color: #f0ede5;
+}
+
+
+
+/*****GRID*****/
+
+.full-width{
+  width: 100%;
+}
+
+
+.half-width{
+  width: 50%;
+}
+
+/*****HEADER*****/
+header .header-top{
+  background-color: #f0ede5;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+
+
+}
+
+header .header-bottom{
+  height: 750px;
+  background-image: url('../img/selfie2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -20px;
+
+
+}
+
+h1 {
+  color: #485167;
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+/***** MAIN *****/
+
+
+/***** PORTFOLIO SECTION *****/
