@@ -51,7 +51,6 @@ nav {
 
 nav ul li{
   display: inline-block;
-  padding-left: 2vw;
 }
 
 
@@ -329,23 +328,20 @@ padding-top: 9vh;
 
 /***** FOOTER - CONTACT*****/
 
-footer {
-  clear: both;
+
+
+footer{
   background-image: url("../img/biker.jpg");
-  height: 25vh;
-  width: 97vw;
-  margin: 0;
+  position: relative;
   background-size: cover;
-  background-position: 50% 52%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
   border-left: 1.5vw #f0ede5 solid;
   border-right: 1.5vw #f0ede5 solid;
-  position: relative;
-  z-index: -2;
-
-
+  z-index: 0;
+  width: 97vw;
+  height: 25vh;
 }
-
-
 
 .hero-overlay-3{
   position: absolute;
@@ -353,9 +349,8 @@ footer {
   bottom: 0;
   height: 25vh;
   width: 97vw;
-  z-index: -1;
+  z-index: 1;
   background-color: rgba(0,0,0,0.6);
-
 }
 
 
@@ -367,36 +362,33 @@ footer {
 
 
 
-
-#contact ul {
+.connect-col-2{
   position: absolute;
-  z-index: 0;
-  bottom: 5vh;
-  padding-left: 39vw;
+  z-index: 2;
+  bottom: 7vh;
+  left: 36vw;
 
 
 }
 
 
-
-#contact ul li{
-display: inline-block;
-padding-left: 1.5vw;
-}
-
-
-
-#contact a{
+a {
+  padding: 2vw;
   text-decoration: none;
+
 }
+
+
 
 
 
 .connect-col-1{
   position: absolute;
   z-index: 2;
-  width: 40vw;
+  width: 20vw;
   text-align: center;
+  left: 8vw;
+  bottom: 6vh;
 
 }
 
@@ -405,9 +397,10 @@ padding-left: 1.5vw;
 .connect-col-3{
   position: absolute;
   z-index: 2;
-  width: 40vw;
-  right: 0;
+  width: 20vw;
+  right: 8vw;
   text-align: center;
+  bottom: 6vh;
 
 }
 
