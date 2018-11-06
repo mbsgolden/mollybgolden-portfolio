@@ -1,51 +1,429 @@
 /*****BASE STYLE*****/
 
 body {
-color: #f0ede5;
+background-color: #f0ede5;
 }
 
 
 
 /*****GRID*****/
 
-.full-width{
-  width: 100%;
+.full-width {
+  width: 100vw;
 }
 
+.half-width {
+  width: 40vw;
+  float: left;
 
-.half-width{
-  width: 50%;
 }
 
 /*****HEADER*****/
-header .header-top{
+
+#top-header{
   background-color: #f0ede5;
-  height: 50px;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  height: 7vh;
+  padding-top: 1vh;
+  padding-bottom: .5vh;
+  margin-top: .5vh;
+}
 
+
+
+.header-1{
+  font-family: 'Cormorant', serif;
+  font-size: 1.5vw;
+  color:  #3d5c5c;
+  padding-left: 3vw;
+  text-transform: uppercase;
+}
+
+
+
+nav {
+  float: right;
+  padding-right: 0;
+  margin-right: -17vw;
 
 }
 
-header .header-bottom{
-  height: 750px;
+
+
+nav ul li{
+  display: inline-block;
+  padding-left: 2vw;
+}
+
+
+
+nav ul li a{
+  font-family: 'Cormorant', serif;
+  text-decoration: none;
+  font-size: 1.2vw;
+  color: #3d5c5c;
+  text-transform: uppercase;
+  letter-spacing: .2vw;
+}
+
+
+
+
+#bottom-header{
   background-image: url('../img/selfie2.jpg');
+  background-position: center center;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-top: -20px;
-
-
+  position: relative;
+  margin: 0;
+  height: 90vh;
+  width: 97vw;
+  z-index: -1;
+  overflow: auto;
+  border-left: 1.5vw #f0ede5 solid;
+  border-right: 1.5vw #f0ede5 solid;
 }
 
-h1 {
-  color: #485167;
-  font-family: 'Fjalla One', sans-serif;
+
+
+.hero-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+
+
+
+.bottom-header-text{
+  position: absolute;
+  top: 55vh;
+  width: 100vw;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  z-index: 1;
 
 }
+
+
+
+.bottom-header-text h1{
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: .3vw;
+  font-size: 7vw;
+  color: #F0EDE5;
+  line-height: 12vh;
+  text-transform: uppercase;
+}
+
+
+
+.bottom-header-text h2{
+  font-family: 'Cormorant', serif;
+  color: #F0EDE5;
+  font-size: 2vw;
+  letter-spacing: .2vw;
+  padding: 0;
+  margin-top: -7vh;
+}
+
 /***** MAIN *****/
 
+/***** MAIN - PORTFOLIO*****/
 
-/***** PORTFOLIO SECTION *****/
+#portfolio{
+  height: 75vh;
+}
+
+
+
+#portfolio h1, #work h1, #contact h1{
+font-family: 'Fjalla One', sans-serif;
+font-size: 3vw;
+letter-spacing: .1vw;
+color: #3d5c5c;
+font-weight: thinner;
+margin-top: 10vh;
+margin-right: auto;
+margin-left: auto;
+padding-top: 3vh;
+padding-bottom: 1vh;
+text-align: center;
+width: 20vw;
+}
+
+
+
+#portfolio-projects{
+  text-align: center;
+  width: 80vw;
+  padding-left:10vw;
+  padding-top: 2vh;
+}
+
+
+
+ #portfolio h2, #portfolio h3{
+  font-family: 'Cormorant', serif;
+  color:#3d5c5c;
+  font-size: 1.6vw;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .15vw;
+}
+
+
+
+#portfolio h3{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.5vw;
+  text-transform: none;
+  width: 25vw;
+  padding-left: 8vw;
+
+}
+
+
+
+#portfolio img{
+  width: 30vw;
+  padding-top: 2vh;
+}
+
+
+
+#portfolio-border{
+  border-top: .1vh #3d5c5c solid;
+  border-bottom: .1vh #3d5c5c solid;
+  margin-top: 10vh;
+}
+
+
+/***** MAIN - ABOUT ME*****/
+
+#about{
+  height: 78vh;
+}
+
+
+
+.third-width-about{
+background-image: url('../img/beach.jpg');
+background-position: center center;
+background-size: cover;
+position: relative;
+width: 45vw;
+height: 75vh;
+z-index: -1;
+overflow: auto;
+border-left: 1.5vw #f0ede5 solid;
+border-right: 1.5vw #f0ede5 solid;
+float: left;
+}
+
+
+
+.two-third-width{
+  background-color: #f6f4ef;
+  width: 50vw;
+  height: 75vh;
+  float: left;
+
+
+
+}
+.img-overlay-2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 75vh;
+    width: 50vw;
+    z-index: 0;
+    background-color: rgba(0,0,0,0.2);
+  }
+
+
+
+#p-1{
+font-family: 'Old Standard TT', serif;
+font-size: 2.5vw;
+letter-spacing: .2vw;
+text-transform: uppercase;
+color: #294157;
+text-align: center;
+margin-top: 5vh;
+padding-top: 9vh;
+}
+
+
+
+#p-2{
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #294157;
+  font-size: 1.3vw;
+  padding-right: 6vw;
+  padding-left: 6vw;
+  text-align: justify;
+  text-align: center;
+  font-weight: bold;
+  font-style: oblique;
+  line-height: 5vh;
+}
+
+
+
+/**** MAIN - WORK *****/
+
+#work{
+  text-align: center;
+  clear: both;
+  height: 45vh;
+}
+
+
+
+#work-skills{
+  text-align: center;
+  padding-left: 11vw;
+  padding-top: 2vh;
+
+}
+
+
+
+#skills-border{
+  border-top: .1vh #3d5c5c solid;
+  border-bottom: .1vh #3d5c5c solid;
+}
+
+
+
+.third-width-work{
+  float: left;
+  width: 20vw;
+  padding-left: 5vw;
+
+}
+
+
+
+.third-width-work h2{
+  font-family: 'Cormorant', serif;
+  color: #3d5c5c;
+  font-size: 1.5vw;
+  letter-spacing: .1vw;
+  text-transform: uppercase;
+}
+
+
+
+.third-width-work h3{
+  color: #3d5c5c;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.3vw;
+}
+
+
+
+/***** FOOTER - CONTACT*****/
+
+footer {
+  clear: both;
+  background-image: url("../img/biker.jpg");
+  height: 25vh;
+  width: 97vw;
+  margin: 0;
+  background-size: cover;
+  background-position: 50% 52%;
+  border-left: 1.5vw #f0ede5 solid;
+  border-right: 1.5vw #f0ede5 solid;
+  position: relative;
+  z-index: -2;
+
+
+}
+
+
+
+.hero-overlay-3{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 25vh;
+  width: 97vw;
+  z-index: -1;
+  background-color: rgba(0,0,0,0.6);
+
+}
+
+
+
+#contact {
+  height: 30vh;
+
+}
+
+
+
+
+#contact ul {
+  position: absolute;
+  z-index: 0;
+  bottom: 5vh;
+  padding-left: 39vw;
+
+
+}
+
+
+
+#contact ul li{
+display: inline-block;
+padding-left: 1.5vw;
+}
+
+
+
+#contact a{
+  text-decoration: none;
+}
+
+
+
+.connect-col-1{
+  position: absolute;
+  z-index: 2;
+  width: 40vw;
+  text-align: center;
+
+}
+
+
+
+.connect-col-3{
+  position: absolute;
+  z-index: 2;
+  width: 40vw;
+  right: 0;
+  text-align: center;
+
+}
+
+
+
+#contact h1{
+  font-family: 'Cormorant', serif;
+  font-size: 1.5vw;
+  color: #f0ede5;
+  letter-spacing: .2vw;
+  text-transform: uppercase;
+}
+
+
+
+span#location{
+text-transform:  none;
+font-size: 1.2vw;
+}
