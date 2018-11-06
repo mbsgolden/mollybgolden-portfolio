@@ -56,7 +56,7 @@ nav ul li{
 
 
 nav ul li a{
-  font-family: 'Cormorant', serif;
+  font-family: 'Cormorant Garamond', serif;
   text-decoration: none;
   font-size: 1.2vw;
   color: #3d5c5c;
@@ -120,7 +120,7 @@ nav ul li a{
 
 
 .bottom-header-text h2{
-  font-family: 'Cormorant', serif;
+  font-family: 'Cormorant Garamond', serif;
   color: #F0EDE5;
   font-size: 2vw;
   letter-spacing: .2vw;
@@ -165,7 +165,7 @@ width: 20vw;
 
 
  #portfolio h2, #portfolio h3{
-  font-family: 'Cormorant', serif;
+  font-family: 'Cormorant Garamond', serif;
   color:#3d5c5c;
   font-size: 1.6vw;
   text-align: center;
@@ -309,7 +309,7 @@ padding-top: 9vh;
 
 
 .third-width-work h2{
-  font-family: 'Cormorant', serif;
+  font-family: 'Cormorant Garamond', serif;
   color: #3d5c5c;
   font-size: 1.5vw;
   letter-spacing: .1vw;
@@ -356,7 +356,7 @@ footer{
 
 
 #contact {
-  height: 30vh;
+  height: 28vh;
 
 }
 
@@ -407,7 +407,7 @@ a {
 
 
 #contact h1{
-  font-family: 'Cormorant', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 1.5vw;
   color: #f0ede5;
   letter-spacing: .2vw;
