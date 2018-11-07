@@ -245,8 +245,8 @@ float: left;
 
 
 
-#p-1{
-font-family: 'Old Standard TT', serif;
+h1#h1-1{
+font-family: 'Cormorant Garamond', serif;
 font-size: 2.5vw;
 letter-spacing: .2vw;
 text-transform: uppercase;
@@ -258,7 +258,7 @@ padding-top: 9vh;
 
 
 
-#p-2{
+p#p-1{
   font-family: 'Alegreya Sans', sans-serif;
   color: #294157;
   font-size: 1.3vw;
@@ -269,6 +269,7 @@ padding-top: 9vh;
   font-weight: bold;
   font-style: oblique;
   line-height: 5vh;
+  text-transform: none;
 }
 
 
