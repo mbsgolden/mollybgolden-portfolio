@@ -39,8 +39,7 @@ background-color: #f0ede5;
 
 nav {
   float: right;
-  padding-right: 0;
-  margin-right: -17vw;
+  margin-right: -18.5vw;
 
 }
 
@@ -48,6 +47,7 @@ nav {
 
 nav ul li{
   display: inline-block;
+  padding-left: -2vw;
 }
 
 
@@ -58,7 +58,7 @@ nav ul li a{
   font-size: 1.2vw;
   color: #3d5c5c;
   text-transform: uppercase;
-  letter-spacing: .2vw;
+  letter-spacing: .17vw;
 }
 
 
@@ -130,7 +130,9 @@ nav ul li a{
 /***** MAIN - PORTFOLIO*****/
 
 #portfolio{
-  height: 75vh;
+  height: 85vh;
+  padding-top: 2vh;
+  padding-bottom: 6vh;
 }
 
 
@@ -157,6 +159,7 @@ width: 20vw;
   width: 80vw;
   padding-left:10vw;
   padding-top: 2vh;
+
 }
 
 
@@ -177,7 +180,7 @@ width: 20vw;
   font-size: 1.5vw;
   text-transform: none;
   width: 25vw;
-  padding-left: 8vw;
+  padding-left: 7.5vw;
 
 }
 
@@ -284,7 +287,6 @@ padding-top: 9vh;
   text-align: center;
   padding-left: 11vw;
   padding-top: 2vh;
-
 }
 
 
